@@ -1,11 +1,52 @@
+@font-face {
+  font-family: "from-the-woods-regular";
+  src: url("graphics/FromtheWoods-Regular.woff2");
+}
+
 body {
   background-image: url("graphics/bg.jpg");
   background-repeat: repeat-y;
+  color: white;
+  text-align: center;
 }
 
 div {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   background-color: #4f6a13;
   border-radius: 50%;
+}
+
+h1 {
+  font-family: "from-the-woods-regular";
+  font-size: 4rem;
+}
+
+.intro {
+  width: 90%;
+  margin: auto;
+}
+
+.circle--nature {
+  position: relative;
+  margin: auto;
+  right: 5%;
+  top: ;
+}
+
+.circle--peace {
+  position: relative;
+  margin: auto;
+  left: 5%;
+}
+
+.circle--community {
+  position: relative;
+  margin: auto;
+  right: 5%;
+}
+
+footer {
+  background-color: #2d4823;
+  width: 100%;
 }
