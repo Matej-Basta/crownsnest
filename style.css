@@ -1,0 +1,11 @@
+body {
+  background-image: url("graphics/bg.jpg");
+  background-repeat: repeat-y;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: #4f6a13;
+  border-radius: 50%;
+}
